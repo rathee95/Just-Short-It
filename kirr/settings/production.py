@@ -59,7 +59,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL= ""####################3
+DEFAULT_REDIRECT_URL= " "####################3
 PARENT_HOST = 'justshortit.herokuapp.com'###############333333
 
 TEMPLATES = [
@@ -92,6 +92,9 @@ DATABASES = {
     }
 }
 
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
