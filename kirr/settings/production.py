@@ -25,7 +25,7 @@ SECRET_KEY = '1_36z!-d34*dz#$_&v1g4fz4mzb=$px#19n-#9vbo48+tfm$&c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.tirr.com','tirr.com']######################33
+ALLOWED_HOSTS = ['www.tirr.com','tirr.com','justshortit.herokuapp.com']######################33
 
 
 # Application definition
