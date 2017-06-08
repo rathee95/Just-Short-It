@@ -59,7 +59,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL= "http://justshortit.herokuapp.com"####################3
+DEFAULT_REDIRECT_URL= "justshortit.herokuapp.com/"####################3
 PARENT_HOST = 'justshortit.herokuapp.com'###############333333
 
 TEMPLATES = [
