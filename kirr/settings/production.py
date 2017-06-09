@@ -59,8 +59,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
-DEFAULT_HOST = 'www' 
-DEFAULT_REDIRECT_URL= "/"#???ye krke dekhu? han ekmin
+DEFAULT_HOST = '' 
+DEFAULT_REDIRECT_URL= ""#???ye krke dekhu? han ekmin
 #########agar yha justshortit.herokuapp.com dalu to dikhata hai too many redirects, agar blankchodu to 
 PARENT_HOST = 'https://justshortit.herokuapp.com/'###############333333ye dikkat hai ab anytihng?
 # check karke dekh kuch django redirect loop error?
