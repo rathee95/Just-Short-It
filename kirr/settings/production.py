@@ -23,7 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = '1_36z!-d34*dz#$_&v1g4fz4mzb=$px#19n-#9vbo48+tfm$&c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
+#this is the production settings file
 
 ALLOWED_HOSTS = ['justshortit.herokuapp.com', 'www.justshortit.herokuapp.com', 'https://justshortit.herokuapp.com','http://justshortit.herokuapp.com' ]######################33
 
@@ -58,6 +59,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
+
 DEFAULT_HOST = 'www'
 DEFAULT_REDIRECT_URL= "https://justshortit.herokuapp.com/"####################3
 PARENT_HOST = 'justshortit.herokuapp.com/'###############333333
