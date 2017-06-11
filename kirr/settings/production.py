@@ -26,7 +26,7 @@ SECRET_KEY = '1_36z!-d34*dz#$_&v1g4fz4mzb=$px#19n-#9vbo48+tfm$&c'
 DEBUG = True
 #this is the production settings file
 
-ALLOWED_HOSTS = [ 'justshortit.herokuapp.com',]#, 'tirr.com', 'www.tirr.com' #####################33
+ALLOWED_HOSTS = [ '.justshortit.herokuapp.com',]#, 'tirr.com', 'www.tirr.com' #####################33
 
 
 # Application definition
