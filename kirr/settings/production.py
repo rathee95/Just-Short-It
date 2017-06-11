@@ -60,7 +60,7 @@ ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
 DEFAULT_REDIRECT_URL= "https://justshortit.herokuapp.com/"####################3
-PARENT_HOST = 'https://justshortit.herokuapp.com/'###############333333
+PARENT_HOST = 'justshortit.herokuapp.com/'###############333333
 
 TEMPLATES = [
     {
