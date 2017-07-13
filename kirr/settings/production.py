@@ -24,7 +24,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '1_36z!-d34*dz#$_&v1g4fz4mzb=$px#19n-#
 
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 #this is the production settings file
 
 ALLOWED_HOSTS = [ 'myshortner.herokuapp.com',]#, 'tirr.com', 'www.tirr.com' #####################33
