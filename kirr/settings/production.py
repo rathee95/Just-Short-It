@@ -20,14 +20,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '1_36z!-d34*dz#$_&v1g4fz4mzb=$px#19n-#9vbo48+tfm$&c')
+SECRET_KEY = '1_36z!-d34*dz#$_&v1g4fz4mzb=$px#19n-#9vbo48+tfm$&c'
 
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #this is the production settings file
 
-ALLOWED_HOSTS = [ 'myshortner.herokuapp.com',]#, 'tirr.com', 'www.tirr.com' #####################33
+ALLOWED_HOSTS = [ '.justshortit.herokuapp.com',]#, 'tirr.com', 'www.tirr.com' #####################33
 
 
 # Application definition
@@ -60,9 +59,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
+
 DEFAULT_HOST = 'www'
-# DEFAULT_REDIRECT_URL= ".justshortit.herokuapp.com"####################3
-# PARENT_HOST = 'justshortit.herokuapp.com'###############333333
+DEFAULT_REDIRECT_URL= ".justshortit.herokuapp.com"####################3
+PARENT_HOST = 'justshortit.herokuapp.com'###############333333
 
 TEMPLATES = [
     {
@@ -97,8 +97,6 @@ DATABASES = {
 import dj_database_url
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
-DATABASES['default']['CONN_MAX_AGE'] = 500
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
